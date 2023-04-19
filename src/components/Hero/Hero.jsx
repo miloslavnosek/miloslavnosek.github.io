@@ -1,4 +1,4 @@
-export const Introduction = () => (
+export const Hero = () => (
   <div id="about" className="relative text-center max-w-5xl mx-auto pt-20 sm:pt-24 lg:pt-32">
     <h1
       className="
@@ -17,6 +17,6 @@ export const Introduction = () => (
     >
       Miloslav Nosek
     </h1>
-    <i className="font-light text-sm">Software developer / Hobby runner / Coffee addict</i>
+    <i className="font-mono">Software developer && Linux enthusiast && Runner</i>
   </div>
 );
