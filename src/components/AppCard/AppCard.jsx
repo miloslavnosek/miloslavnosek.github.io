@@ -1,5 +1,3 @@
-import * as githubLogo from '/assets/github-mark-white.svg'
-
 export const AppCard = ({ title, description, repo, tags }) => (
   <div className="bg-gray-800 shadow-md rounded-lg overflow-hidden max-w-4xl my-4 p-4 flex cursor-pointer">
     <div>
