@@ -17,6 +17,6 @@ export const Hero = () => (
     >
       Miloslav Nosek
     </h1>
-    <i className="font-mono">Software developer && Linux enthusiast && Runner</i>
+    <span className="font-mono">Software developer && Linux enthusiast && Runner</span>
   </div>
 );

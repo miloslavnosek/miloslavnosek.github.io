@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Introduction = () => {
   return (
-    <section id="intro" className="px-8 mt-20 sm:mt-32 md:mt-40 md:text-left">
+    <section id="intro" className="px-8 mt-20 sm:mt-32 md:mt-30 md:text-left">
       <p>
         <strong>Hello!</strong>&nbsp;
         I'm Míla, and I'm a software developer :)

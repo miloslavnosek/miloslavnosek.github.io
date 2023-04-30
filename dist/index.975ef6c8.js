@@ -2941,7 +2941,7 @@ root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _app.App), {}, void 0, 
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"e9Zfo","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./index.css":"irmnC"}],"iTorj":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","react-dom/client":"lOjBx","./App":"e9Zfo","./index.css":"irmnC","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"iTorj":[function(require,module,exports) {
 "use strict";
 module.exports = require("7910a4b117797f74");
 
@@ -27189,7 +27189,7 @@ $RefreshReg$(_c, "App");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./components/Header/Header":"hTZHl","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","./components/Hero/Hero":"4mYyW","./sections/Introduction/Introduction":"krCqv","./sections/AppSection/AppSection":"aQ6Wg","./sections/ArticleSection/ArticleSection":"fPctM"}],"hTZHl":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./components/Header/Header":"hTZHl","./components/Hero/Hero":"4mYyW","./sections/Introduction/Introduction":"krCqv","./sections/AppSection/AppSection":"aQ6Wg","./sections/ArticleSection/ArticleSection":"fPctM","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hTZHl":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$17de = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27516,7 +27516,7 @@ const Hero = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
                 lineNumber: 3,
                 columnNumber: 5
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("i", {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
                 className: "font-mono",
                 children: "Software developer && Linux enthusiast && Runner"
             }, void 0, false, {
@@ -27555,7 +27555,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
 const Introduction = ()=>{
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "intro",
-        className: "px-8 mt-20 sm:mt-32 md:mt-40 md:text-left",
+        className: "px-8 mt-20 sm:mt-32 md:mt-30 md:text-left",
         children: [
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 children: [
@@ -27666,34 +27666,50 @@ parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AppSection", ()=>AppSection);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _appCard = require("../../components/AppCard/AppCard");
+var _quote = require("../../components/Quote/Quote");
 const AppSection = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "apps",
-        className: "px-8 mt-20",
+        className: "px-8 mt-14",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "I contribute to the world of open-source in my free time."
-            }, void 0, false, {
-                fileName: "src/sections/AppSection/AppSection.jsx",
-                lineNumber: 5,
-                columnNumber: 5
-            }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                className: "mt-5",
-                children: "By developing apps"
-            }, void 0, false, {
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _quote.Quote), {}, void 0, false, {
                 fileName: "src/sections/AppSection/AppSection.jsx",
                 lineNumber: 6,
                 columnNumber: 5
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appCard.AppCard), {
-                title: "Mindfulness Notifier",
-                description: "An app reminding you to stay present and mindful",
-                repo: "https://github.com/miloslavnosek/mindfulness-notifier/tree/configurable-notifications",
-                tags: [
-                    "android",
-                    "go"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "mt-14",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                        className: "font-bold text-lg",
+                        children: "My open-source contributions:"
+                    }, void 0, false, {
+                        fileName: "src/sections/AppSection/AppSection.jsx",
+                        lineNumber: 8,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                        className: "mt-5 font-semibold text-lg",
+                        children: "Apps:"
+                    }, void 0, false, {
+                        fileName: "src/sections/AppSection/AppSection.jsx",
+                        lineNumber: 9,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appCard.AppCard), {
+                        title: "Mindfulness Notifier",
+                        description: "An app reminding you to stay present and mindful",
+                        repo: "https://github.com/miloslavnosek/mindfulness-notifier/tree/configurable-notifications",
+                        tags: [
+                            "android",
+                            "go"
+                        ]
+                    }, void 0, false, {
+                        fileName: "src/sections/AppSection/AppSection.jsx",
+                        lineNumber: 10,
+                        columnNumber: 7
+                    }, undefined)
                 ]
-            }, void 0, false, {
+            }, void 0, true, {
                 fileName: "src/sections/AppSection/AppSection.jsx",
                 lineNumber: 7,
                 columnNumber: 5
@@ -27701,7 +27717,7 @@ const AppSection = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         ]
     }, void 0, true, {
         fileName: "src/sections/AppSection/AppSection.jsx",
-        lineNumber: 4,
+        lineNumber: 5,
         columnNumber: 3
     }, undefined);
 _c = AppSection;
@@ -27713,7 +27729,7 @@ $RefreshReg$(_c, "AppSection");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","../../components/AppCard/AppCard":"3qRzg"}],"3qRzg":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","../../components/AppCard/AppCard":"3qRzg","../../components/Quote/Quote":"19VtC","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"3qRzg":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$28f5 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27724,7 +27740,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "AppCard", ()=>AppCard);
 var _jsxDevRuntime = require("react/jsx-dev-runtime");
-var _githubMarkWhiteSvg = require("/assets/github-mark-white.svg");
 const AppCard = ({ title , description , repo , tags  })=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         className: "bg-gray-800 shadow-md rounded-lg overflow-hidden max-w-4xl my-4 p-4 flex cursor-pointer",
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27737,7 +27752,7 @@ const AppCard = ({ title , description , repo , tags  })=>/*#__PURE__*/ (0, _jsx
                             children: title
                         }, void 0, false, {
                             fileName: "src/components/AppCard/AppCard.jsx",
-                            lineNumber: 7,
+                            lineNumber: 5,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("span", {
@@ -27745,7 +27760,7 @@ const AppCard = ({ title , description , repo , tags  })=>/*#__PURE__*/ (0, _jsx
                             children: "|"
                         }, void 0, false, {
                             fileName: "src/components/AppCard/AppCard.jsx",
-                            lineNumber: 8,
+                            lineNumber: 6,
                             columnNumber: 9
                         }, undefined),
                         /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
@@ -27755,13 +27770,13 @@ const AppCard = ({ title , description , repo , tags  })=>/*#__PURE__*/ (0, _jsx
                             children: "GitHub"
                         }, void 0, false, {
                             fileName: "src/components/AppCard/AppCard.jsx",
-                            lineNumber: 9,
+                            lineNumber: 7,
                             columnNumber: 9
                         }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/components/AppCard/AppCard.jsx",
-                    lineNumber: 6,
+                    lineNumber: 4,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27771,12 +27786,12 @@ const AppCard = ({ title , description , repo , tags  })=>/*#__PURE__*/ (0, _jsx
                         children: description
                     }, void 0, false, {
                         fileName: "src/components/AppCard/AppCard.jsx",
-                        lineNumber: 19,
+                        lineNumber: 17,
                         columnNumber: 9
                     }, undefined)
                 }, void 0, false, {
                     fileName: "src/components/AppCard/AppCard.jsx",
-                    lineNumber: 18,
+                    lineNumber: 16,
                     columnNumber: 7
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -27786,23 +27801,23 @@ const AppCard = ({ title , description , repo , tags  })=>/*#__PURE__*/ (0, _jsx
                             children: tag
                         }, idx, false, {
                             fileName: "src/components/AppCard/AppCard.jsx",
-                            lineNumber: 24,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/components/AppCard/AppCard.jsx",
-                    lineNumber: 22,
+                    lineNumber: 20,
                     columnNumber: 7
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/AppCard/AppCard.jsx",
-            lineNumber: 5,
+            lineNumber: 3,
             columnNumber: 5
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/AppCard/AppCard.jsx",
-        lineNumber: 4,
+        lineNumber: 2,
         columnNumber: 3
     }, undefined);
 _c = AppCard;
@@ -27814,44 +27829,86 @@ $RefreshReg$(_c, "AppCard");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","/assets/github-mark-white.svg":"kQo4J"}],"kQo4J":[function(require,module,exports) {
-module.exports = require("2b0f6c42706f628a").getBundleURL("bLxZJ") + "github-mark-white.2696c42e.svg" + "?" + Date.now();
+},{"react/jsx-dev-runtime":"iTorj","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"19VtC":[function(require,module,exports) {
+var $parcel$ReactRefreshHelpers$23dc = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
+var prevRefreshReg = window.$RefreshReg$;
+var prevRefreshSig = window.$RefreshSig$;
+$parcel$ReactRefreshHelpers$23dc.prelude(module);
 
-},{"2b0f6c42706f628a":"lgJ39"}],"lgJ39":[function(require,module,exports) {
-"use strict";
-var bundleURL = {};
-function getBundleURLCached(id) {
-    var value = bundleURL[id];
-    if (!value) {
-        value = getBundleURL();
-        bundleURL[id] = value;
-    }
-    return value;
-}
-function getBundleURL() {
-    try {
-        throw new Error();
-    } catch (err) {
-        var matches = ("" + err.stack).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^)\n]+/g);
-        if (matches) // The first two stack frames will be this function and getBundleURLCached.
-        // Use the 3rd one, which will be a runtime in the original bundle.
-        return getBaseURL(matches[2]);
-    }
-    return "/";
-}
-function getBaseURL(url) {
-    return ("" + url).replace(/^((?:https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/.+)\/[^/]+$/, "$1") + "/";
-} // TODO: Replace uses with `new URL(url).origin` when ie11 is no longer supported.
-function getOrigin(url) {
-    var matches = ("" + url).match(/(https?|file|ftp|(chrome|moz|safari-web)-extension):\/\/[^/]+/);
-    if (!matches) throw new Error("Origin not found");
-    return matches[0];
-}
-exports.getBundleURL = getBundleURLCached;
-exports.getBaseURL = getBaseURL;
-exports.getOrigin = getOrigin;
+try {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "Quote", ()=>Quote);
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+var _react = require("react");
+var _reactDefault = parcelHelpers.interopDefault(_react);
+const Quote = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "w-full mx-auto rounded-lg px-5 pt-5 pb-10",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-full mb-10",
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-3xl text-left leading-tight h-3",
+                        children: "“"
+                    }, void 0, false, {
+                        fileName: "src/components/Quote/Quote.jsx",
+                        lineNumber: 6,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                        className: "text-center px-5",
+                        children: "Talk is cheap. Show me the code."
+                    }, void 0, false, {
+                        fileName: "src/components/Quote/Quote.jsx",
+                        lineNumber: 7,
+                        columnNumber: 9
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                        className: "text-3xl text-right leading-tight h-3 -mt-3",
+                        children: "”"
+                    }, void 0, false, {
+                        fileName: "src/components/Quote/Quote.jsx",
+                        lineNumber: 10,
+                        columnNumber: 9
+                    }, undefined)
+                ]
+            }, void 0, true, {
+                fileName: "src/components/Quote/Quote.jsx",
+                lineNumber: 5,
+                columnNumber: 7
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                className: "w-full",
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                    className: "text-md font-bold text-center",
+                    children: "Linus Torvalds"
+                }, void 0, false, {
+                    fileName: "src/components/Quote/Quote.jsx",
+                    lineNumber: 13,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
+                fileName: "src/components/Quote/Quote.jsx",
+                lineNumber: 12,
+                columnNumber: 7
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "src/components/Quote/Quote.jsx",
+        lineNumber: 4,
+        columnNumber: 5
+    }, undefined);
+_c = Quote;
+var _c;
+$RefreshReg$(_c, "Quote");
 
-},{}],"fPctM":[function(require,module,exports) {
+  $parcel$ReactRefreshHelpers$23dc.postlude(module);
+} finally {
+  window.$RefreshReg$ = prevRefreshReg;
+  window.$RefreshSig$ = prevRefreshSig;
+}
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"fPctM":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$9a00 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -27866,8 +27923,9 @@ const ArticleSection = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
         id: "articles",
         className: "px-8 mt-20",
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                children: "And publishing articles about technology"
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                className: "mt-5 font-semibold text-lg",
+                children: "My articles about technology:"
             }, void 0, false, {
                 fileName: "src/sections/ArticleSection/ArticleSection.jsx",
                 lineNumber: 3,

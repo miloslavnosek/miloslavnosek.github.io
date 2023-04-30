@@ -1,6 +1,6 @@
 export const ArticleSection = () => (
   <section id="articles" className="px-8 mt-20">
-    <p>And publishing articles about technology</p>
+    <h3 className="mt-5 font-semibold text-lg">My articles about technology:</h3>
     <ul className="text-sm">
       <li className="my-2">
         <span> - </span>
