@@ -1,5 +1,5 @@
 export const AppCard = ({ title, description, repo, tags }) => (
-  <div className="bg-gray-800 shadow-md rounded-lg overflow-hidden max-w-4xl my-4 p-4 flex cursor-pointer">
+  <div className="bg-gray-800 shadow-md rounded-lg overflow-hidden max-w-4xl my-4 p-4 flex">
     <div>
       <div className="flex">
         <h2 className="font-bold text-white">{title}</h2>
