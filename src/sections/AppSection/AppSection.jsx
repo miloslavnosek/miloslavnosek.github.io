@@ -9,9 +9,14 @@ export const AppSection = () => (
       <h3 className="mt-5 font-semibold text-lg">Apps:</h3>
       <AppCard
         title={'Mindfulness Notifier'}
-        description={'An app reminding you to stay present and mindful'}
+        description={'An android app reminding you to stay present and mindful'}
         repo="https://github.com/miloslavnosek/mindfulness-notifier/tree/configurable-notifications"
         tags={['android', 'go']} />
+      <AppCard
+        title={'Planner'}
+        description={'A TUI task planning app with focus on key bindings featuring Vim-like navigation and modes'}
+        repo="https://github.com/miloslavnosek/planner"
+        tags={['cross-platform', 'go']} />
     </div>
   </section>
 )

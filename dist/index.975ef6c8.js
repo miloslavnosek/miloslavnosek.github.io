@@ -27697,7 +27697,7 @@ const AppSection = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appCard.AppCard), {
                         title: "Mindfulness Notifier",
-                        description: "An app reminding you to stay present and mindful",
+                        description: "An android app reminding you to stay present and mindful",
                         repo: "https://github.com/miloslavnosek/mindfulness-notifier/tree/configurable-notifications",
                         tags: [
                             "android",
@@ -27706,6 +27706,19 @@ const AppSection = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("section", {
                     }, void 0, false, {
                         fileName: "src/sections/AppSection/AppSection.jsx",
                         lineNumber: 10,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _appCard.AppCard), {
+                        title: "Planner",
+                        description: "A TUI task planning app with focus on key bindings featuring Vim-like navigation and modes",
+                        repo: "https://github.com/miloslavnosek/planner",
+                        tags: [
+                            "cross-platform",
+                            "go"
+                        ]
+                    }, void 0, false, {
+                        fileName: "src/sections/AppSection/AppSection.jsx",
+                        lineNumber: 15,
                         columnNumber: 7
                     }, undefined)
                 ]
