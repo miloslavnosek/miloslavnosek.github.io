@@ -14,7 +14,7 @@ export const Introduction = () => {
         For the past 6+ years, my primary focus has been on <strong className="text-lime-700">Node.js</strong>. It's been my go-to language for both my career and also my personal projects.
       </p>
       <p className="mt-4">
-        Lately, I've been also diving into <strong className="text-sky-500">Go</strong> as an elegant and efficient approach to create high-performance, cross-platform applications and scripts for both GUI and the command line.
+        Lately, I've also been enjoying learning <strong className="text-sky-500">Go</strong>. I find it fun to work with, and I'm motivated by its ability to create high-performance, cross-platform applications and scripts for both GUI and the command line.
       </p>
       <p className="mt-4">
         I'm a long-time Linux user, and daily drive <strong className="text-green-700">openSUSE Tumbleweed</strong>. I also boot into Arch Linux every now and then for learning purposes, but I don't use Arch btw. ;)

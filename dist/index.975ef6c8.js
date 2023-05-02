@@ -27603,16 +27603,16 @@ const Introduction = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
                 className: "mt-4",
                 children: [
-                    "Lately, I've been also diving into ",
+                    "Lately, I've also been enjoying learning ",
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("strong", {
                         className: "text-sky-500",
                         children: "Go"
                     }, void 0, false, {
                         fileName: "src/sections/Introduction/Introduction.jsx",
                         lineNumber: 17,
-                        columnNumber: 44
+                        columnNumber: 50
                     }, undefined),
-                    " as an elegant and efficient approach to create high-performance, cross-platform applications and scripts for both GUI and the command line."
+                    ". I find it fun to work with, and I'm motivated by its ability to create high-performance, cross-platform applications and scripts for both GUI and the command line."
                 ]
             }, void 0, true, {
                 fileName: "src/sections/Introduction/Introduction.jsx",
